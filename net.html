@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor</title>
+    <link rel="stylesheet" href="net.css">
+    <script src="https://kit.fontawesome.com/d04a2b8c44.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="con">
+        <div class="input">
+            <label><i class="fa-solid fa-code"></i>HTML</label>
+            <textarea id="html-code" onkeyup="out()"></textarea><br>
+
+            <label><i class="fa-brands fa-css3"></i>CSS</label>
+            <textarea id="css-code" onkeyup="out()"></textarea><br>
+
+            <label><i class="fa-brands fa-js"></i>JAVASCRIPT</label>
+            <textarea id="js-code" onkeyup="out()"></textarea>
+        </div>
+        <div class="output">
+            <label><i class="fa-solid fa-play"></i>OUTPUT</label>
+            <iframe id="out"></iframe>
+        </div>
+    </div>
+    <script src="net.js"></script>
+</body>
+</html>
